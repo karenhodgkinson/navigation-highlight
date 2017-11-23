@@ -53,7 +53,7 @@ a:hover {
 }
 
 h1 {
-  font-family: 'Sigmar One', cursive;
+  font-family: "Sigmar One", cursive;
   color: #b20953;
   font-size: 3rem;
   text-align: center;
@@ -61,13 +61,14 @@ h1 {
 }
 
 h2 {
-  font-family: 'Sigmar One', cursive;
+  font-family: "Sigmar One", cursive;
   color: #b20953;
   font-size: 1.875rem;
 }
 
 img {
   width: 100%;
+  display: block;
 }
 
 footer {
