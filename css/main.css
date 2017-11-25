@@ -4,6 +4,8 @@ html {
   line-height: 1.5;
   vertical-align: middle;
   background-color: #ffe500;
+  margin: 0;
+  padding: 0;
 }
 
 *, *::before, *::after {
@@ -22,6 +24,7 @@ main {
   padding-right: .75em;
   padding-top: .2em;
   padding-bottom: .2em;
+  margin: 0;
   color: #2f2d13;
 }
 
@@ -29,8 +32,14 @@ main {
   display: inline-block;
 }
 
+ul.nav {
+  padding-bottom: .75em;
+}
+
 .nav {
   padding: 0;
+  margin: 0;
+  padding-bottom: .5em;
 }
 
 a {
@@ -40,6 +49,8 @@ a {
   background-color: #b2a212;
   border-radius: 4px;
   padding: .5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 a:hover {
@@ -47,9 +58,11 @@ a:hover {
 }
 
 .current {
-  background-color: #cc1465;
+  background-color: #b20953;
   border-radius: 4px;
   padding: .5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 h1 {
